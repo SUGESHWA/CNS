@@ -32,6 +32,7 @@ becomes C. To change a message back, each letter is replaced by the one three be
 
 PROGRAM :-
 ~~~
+
 def format_key(key):
     key = key.upper().replace('J', 'I')  
     key = ''.join(sorted(set(key), key=key.index))  
@@ -130,13 +131,15 @@ if __name__ == "__main__":
     
     decrypted_text = decrypt(encrypted_text, key)
     print("Decrypted Text: ", decrypted_text)
+   
 ~~~
 
 
 
-OUTPUT :-
+# OUTPUT :-
+![image](https://github.com/user-attachments/assets/139d9f39-588f-4fdf-a211-64385dda918c)
 
-![image](https://github.com/user-attachments/assets/f19e8949-80bb-4372-b026-b4a1246a3618)
+
 
 # RESULT
 THE PROGRAM IS EXECUTED SUCCESSFULLY.
